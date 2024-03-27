@@ -1,0 +1,30 @@
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Mrf Part #,Jlcpcb part #,Notes
+"C1, C2, C3, C4, C5, C15, C19, C20, C21, C24, C26, C27",12,100n,C_Small,nrf5340:C_0201_0603Metric_Square,"Capacitor, X5R, ±10%",Murata Electronics,GRM033R61A104ME15D,C408130,
+"C7, C8, C9, C13, C14, C16, C22, C23, C25",9,1u,C_Small,nrf5340:C_0402_1005Metric_Square,"Capacitor, X5R, ±10%, 6.3V",Murata Electronics,GRM155R60J105KE19D,C76929,
+C10,1,2n2,C_Small,nrf5340:C_0201_0603Metric_Square,"Capacitor, X7R, ±10%, 10V",Murata Electronics,GRM033R71A222KA01D,C161479,
+C11,2,0p7,C_Small,nrf5340:C_0201_0603Metric_Square,"Capacitor, Ceramic, NP0, ±0.1pF, 25V",Murata Electronics,GJM0335C1ER70BB01D,C161293,"Can’t find on jlcpcb, use global sourcing"
+"C28, C30",1,2u2,C_Small,nrf5340:C_0402_1005Metric_Square,"Capacitor, Ceramic, X5R, ±10%, 10V",Murata Electronics,GRM155R61A225KE95D,C76993,
+"C29, C31, C32, C33, C35",5,10u,C_Small,nrf5340:C_0603_1608Metric_Square,"Capacitor, Ceramic, X5R, ±20%, 10V",Murata Electronics,GRM188R61A106KE69D,C77044,
+C34,1,22u,C_Small,nrf5340:C_0603_1608Metric_Square,"Capacitor, X5R, ±20%, 6.3V",Murata Electronics,GRM188R61A226ME15D,C84419,
+"D1, D2, D4",3,PESD5V0V1BDSF,PESD5V0V1BDSF,nrf5340:D_0603_1608Metric_Square,Very low capacitance bidirectional ESD protection diode,Nexperia,"PESD5V0V1BDSF,315",C513113,
+D3,1,RED_LED,LED,LED_SMD:LED_0402_1005Metric,Light emitting diode,Foshan NationStar Optoelectronics,NCD0402R1,C130719,
+E1,1,2450AT18B100E,2450AT18B100E,nrf5340:2450AT18B100E,2.45 GHz chip antenna,Johanson Technology,2450AT18B100E,C2917717,
+J2,1,BC075-02-A-L-A,BC075-02-A-L-A,nrf5340:BC075-02-A-L-A,"2POS 1.0MM PITCH SOCKET, SIL, SM",GCT,BC075-02-A-L-A,,Part no longer manufactured (by jlcpcb) but available on digikey
+"L1, L4",2,10u,L_Small,nrf5340:L_0603_1608Metric_MLZ1608M100WTD25,"Inductor, 250mA, ±20%, 1.05ohm. -55°C ~ 125°C",TDK,MLZ1608M100WTD25,C2047264,
+"L2, L3",2,2n2,L_Small,nrf5340:L_0201_0603Metric_Square,"Inductor, 600mA, ±0.1ｎH, 120mOhm",Murata Electronics,LQP03HQ2N2B02D,C1329438,
+L5,1,4n7,L_Small,nrf5340:L_0201_0603Metric_Square,"Inductor, 350mA, ±3%",Murata Electronics,LQP03TN4N7H02D,C86126,As per dk bom
+L6,1,2u2,L_Small,nrf5340:L_0603_1608Metric_MLZ1608M100WTD25,750mA 2.2uH ±20% 390mΩ 0603 Inductors,TDK ,MLP1608H2R2BT0S1,C129931,This is a 750mA rated part but on the dk it is a 2.5A rated part
+"R1, R2",2,100,R_Small,nrf5340:R_0201_0603Metric_Square,"Resistor, ±1%, 0.05W",YAGEO ,RC0201FR-07100RL,C77623,For stability of data line of mics
+"R3, R4",2,22,R_Small,nrf5340:R_0201_0603Metric_Square,"Resistor, ±1%, 0.05W",YAGEO ,RC0201FR-0722RL,C155743,For stability on headphone line
+R5,1,100k,R_Small,nrf5340:R_0201_0603Metric_Square,"Resistor, small symbol",YAGEO ,RC0201FR-07100KL,C106224,
+R6,1,33k,R_Small,nrf5340:R_0603_1608Metric_Square,"Resistor, small symbol",UNI-ROYAL,0603WAF3302T5E,C4216,Large so that it can be de-soldered (controls charging current) Basic part
+"R7, R8, R9",3,1M,R_Small,nrf5340:R_0201_0603Metric_Square,"Resistor, small symbol",YAGEO ,RC0201FR-071ML,C295786,Voltage divider for batt measurement
+R10,1,33,R_Small,nrf5340:R_0402_1005Metric_Square,"Resistor, small symbol",YAGEO ,RC0402FR-0733RL,C138002,For the red led
+S1,1,Volume Up,PTS840_GM_SMTR_LFS,nrf5340:SW_PTS840GMSMTRLFS,Push button switch,C&K,PTS840GMSMTRLFS,C221909,
+TH1,1,Thermistor_NTC,Thermistor_NTC,nrf5340:R_0402_1005Metric_Square,10kΩ 0.1mA ±1% 3380K ±1% 0402 NTC Thermistor,Murata Electronics,NCU15XH103F6SRC,C333993,If no thermister then 10k resistor is fine
+U1,1,NRF5340-CLAA-R,NRF5340-CLAA-R,nrf5340:NRF5340-CLAA-R,,Nordic Semiconductor,NRF5340-CLAA-R,C3606597,
+"U2, U3",2,IM69D130_PDM,IM69D130_PDM,nrf5340:MIC_IM69D130V01XTSA1_PadFix,,Infineon Technologies,IM69D130V01XTSA1,,Not the same as the one on the Audio Dk. Says its no longer manufactured on jlcpcb. Available on digikey
+U4,1,CS47L63-CWZR,CS47L63-CWZR,nrf5340:CS47L63-CWZR,,Cirrus Logic ,CS47L63-CWZR,C3588069,
+U5,1,NPM1100-CAAA-R7,NPM1100-CAAA-R7,nrf5340:NPM1100-CAAA-R7,,Nordic Semiconductor,nPM1100-CAAA-R7,C3682614,The NPM1100-CAAA-E-R7 variant on digikey is $2 (vs $10 for the the R7)
+U6,1,XCL210C12,XCL210C12,nrf5340:XCL210C12,,Torex Semiconductor ,XCL210C121GR-G,,Only available on Mouser
+Y1,1,32Mhz 8pF,Crystal_GND24_Small,nrf5340:MP06003_Crystal,"Four pin crystal, GND on pins 2 and 4, small symbol",Kyocera,CX2016DB32000D0WZRC1,C1985237,As per dk bom

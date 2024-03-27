@@ -1,0 +1,13 @@
+100n
+power decoupling caps: GRM033R61A104ME15D
+Why? 10V Thats what was used in this video: https://www.youtube.com/watch?v=kUruN6WBgSw (see time 20:04)
+Available cheaply from JLCPCB
+
+1u
+power decoupling caps: GRM033R60J105KEA2D
+Why? 6.3V Available as 0201 (can't find 0402)
+Available cheaply from JLCPCB
+
+
+# command for generating bom:
+/usr/bin/python3 "/usr/share/kicad/plugins/bom_csv_grouped_extra.py" "%I" "%O.csv" "PACKAGE" "MANUFACTURER" "Mfg Part #" "Notes"

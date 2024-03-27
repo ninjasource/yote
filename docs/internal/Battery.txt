@@ -1,0 +1,26 @@
+Here are some candidate batteries without protection (cannot be used directly with nPM1100):
+Model:400909 401010 401012 501010 501012
+Type: Lithium battery
+Capacity:25mAh/30mA/35mAh/40mAh/50mAh
+Rechargeable: YES
+Charging Voltage: 4.2V
+Rated Voltage: 3.7V
+Working Temperature: -10°C~50°C
+Dimensions: About 9x9x4mm 10x10x4mm  10x12x4mm  10x10x5mm  10x12x4mm 
+
+
+The 501015 is 50mah 16x10x5mm protected (I have 3)
+The 360821 is 50mah 22x7x3.5mm protected (I have 10)
+
+R&D Idea:
+Buy cheap wireless earphones off amazon and open them up
+
+
+From nPM1100 Product Specification:
+3.7 Battery considerations
+The charger can only be used with Li-ion/Li-poly rechargeable batteries.
+Battery packs connected to the VBAT pin must contain the following protection circuitry:
+• Overcharge protection
+• Undervoltage protection
+• Overcurrent discharge fuse
+• Thermal fuse to protect from overtemperature (if NTC thermistor is not present)

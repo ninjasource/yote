@@ -1,0 +1,13 @@
+Pin size: 0.3mm
+Outer distance between pins: 1.4mm
+Inner distance between pins: 0.8mm
+Pitch 1.1mm (actually its 1mm)
+230 ohms impedance (200 ohms at DC)
+
+
+Another company that sells rics:
+https://www.sonion.com/hearing/ric-assemblies/rics/
+
+And another:
+https://www.micro-semiconductor.com/products/Knowles/RVA-90080-N17
+

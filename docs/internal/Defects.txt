@@ -1,0 +1,5 @@
+1. Dead, overcurrent and missing capacitor
+2. Dsp not working (no coms)
+3. Crackling begins cused by mild vibrations. Fixed by pushing one of the dsp chip onto the board firmly (probably a connection issue)
+
+All boards: battery charging does not work

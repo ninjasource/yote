@@ -1,0 +1,9 @@
+We need an I2S microphone. The Tympan project uses a PDM mic which needs a codec. Don't want that complexity.
+
+Here is an I2S mic:
+https://www.digikey.co.uk/en/products/detail/knowles/SPH0645LM4H-B/5332440
+By Knowles: SPH0645LM4H-B
+
+
+Here is a digikey search list:
+https://www.digikey.co.uk/en/products/filter/microphones/158?s=N4IgTCBcDaIJZgM4AIC2cDGIC6AaEAbFKHACZQgC0AjAAzUj4AOALhYyCwJ5MCmFpRFgC%2BwoA

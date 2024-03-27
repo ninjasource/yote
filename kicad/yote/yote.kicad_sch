@@ -1,0 +1,779 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed5e461c-f9f3-4239-9e69-f5a6bf03697b")
+	(paper "A4")
+	(title_block
+		(title "Hearing Aid")
+		(date "2023-04-01")
+		(rev "0.1")
+		(company "Yote")
+	)
+	(lib_symbols)
+	(junction
+		(at 157.48 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca3fdd9-fbb5-4bd5-8b92-35ce597f34e1")
+	)
+	(wire
+		(pts
+			(xy 175.895 93.345) (xy 203.2 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022d534f-b8a5-4772-8789-8c7fb71572b0")
+	)
+	(wire
+		(pts
+			(xy 175.895 103.505) (xy 203.2 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebb9a34-7c53-4ddf-93bc-043a5b1b5cf8")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 91.44 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226e8cc6-5608-4481-a5b0-8058ad179984")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.215) (xy 157.48 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28727eaf-7608-4762-95cb-88dbc0e6362d")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.995) (xy 136.525 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9134ef-ff8a-4608-902c-a4844c096555")
+	)
+	(wire
+		(pts
+			(xy 175.895 111.125) (xy 203.2 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9b827d-62c0-4e71-9067-605a5157a4ca")
+	)
+	(wire
+		(pts
+			(xy 220.98 79.375) (xy 220.98 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46126537-151e-49b4-b571-744d0dbdf785")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 136.525 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c5fc81-e409-4918-b232-33270d9d3e80")
+	)
+	(wire
+		(pts
+			(xy 175.895 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc1da7d-6b6b-4e14-a195-7c89948d4845")
+	)
+	(wire
+		(pts
+			(xy 175.895 97.155) (xy 203.2 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60323d3f-523b-4e8a-8342-31082a1868be")
+	)
+	(wire
+		(pts
+			(xy 89.535 67.31) (xy 222.885 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6980a211-2ba6-4b58-b6ee-898ffcf3b283")
+	)
+	(wire
+		(pts
+			(xy 157.48 69.215) (xy 157.48 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734f608f-8ea0-4af1-9bd9-387eb35fcee9")
+	)
+	(wire
+		(pts
+			(xy 175.895 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76acf14c-d860-4b94-b3c8-51e2a760f9d9")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.215) (xy 157.48 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3cb8c6-3b10-4e4d-9cd7-ac79835cbc37")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 136.525 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828caf21-05aa-47c3-ad1f-209753f54a96")
+	)
+	(wire
+		(pts
+			(xy 175.895 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f91a90f-7652-4118-89fc-aad3d7197a7a")
+	)
+	(wire
+		(pts
+			(xy 175.895 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1e2e40-b972-4e80-ac3e-bb54e7d768c6")
+	)
+	(wire
+		(pts
+			(xy 175.895 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec22e96-181c-4c47-a790-4a647692b16d")
+	)
+	(wire
+		(pts
+			(xy 175.895 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9134765-a20f-414b-a5a8-1a7a97485ad4")
+	)
+	(wire
+		(pts
+			(xy 89.535 67.31) (xy 89.535 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a968516c-b09f-4b27-a9d6-b488c317b5e5")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.805) (xy 136.525 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1dfd28-66e6-4462-87c3-27597c57e8c1")
+	)
+	(wire
+		(pts
+			(xy 175.895 86.995) (xy 203.2 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11756d6-f52e-4efa-b1f1-bf74a21658ba")
+	)
+	(wire
+		(pts
+			(xy 222.885 79.375) (xy 222.885 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8f0d83-1530-482b-822f-fd1d4872e0a5")
+	)
+	(wire
+		(pts
+			(xy 175.895 107.315) (xy 203.2 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc482c65-80a7-49b8-b11b-fc33db1c7cb2")
+	)
+	(text "Hearing Aid"
+		(exclude_from_sim no)
+		(at 13.97 19.05 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e2310be-2356-42f3-b783-be90ae8d9584")
+	)
+	(text "This device is intended to capture audio from two microphones, \nclean up the signal using a dedicated DSP chip and an MCU,\napply compression and send the amplfied mono audio directly \ninto a hearing aid compatible RIC (receiver in canal / earpiece).\nThe device runs off a Li-ion battery and can be charged at 5V.\nOther features include Bluetooth control and Bluetooth LE Audio."
+		(exclude_from_sim no)
+		(at 22.86 188.595 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b34ef5ab-7d46-4f46-9116-6573beef5fc9")
+	)
+	(sheet
+		(at 68.58 78.74)
+		(size 41.91 37.465)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.5000)
+		)
+		(uuid "881bfc70-6d46-460b-8ac6-089ee5a66939")
+		(property "Sheetname" "Power"
+			(at 68.58 77.4134 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 68.58 116.7896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PMIC_CHG" output
+			(at 110.49 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10a9e8b0-4fbe-4290-aa3d-63bd03ed6030")
+		)
+		(pin "PMIC_ISET" input
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15297dc9-9f5b-4539-b54e-35e98163ce21")
+		)
+		(pin "PMIC_ERR" output
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7cb1b556-2e9e-4294-b5c4-9d12a98d98e2")
+		)
+		(pin "VDD_1V8" output
+			(at 91.44 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23f5320b-3ce0-4375-b276-27a2b834a1bc")
+		)
+		(pin "VDD_1V2" output
+			(at 89.535 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f1cacae-1a32-4408-a7d9-a682375a47d0")
+		)
+		(pin "BATT_VOLTAGE" output
+			(at 110.49 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f981966-3955-44a4-8715-fd1339a5ea0a")
+		)
+		(instances
+			(project "yote"
+				(path "/ed5e461c-f9f3-4239-9e69-f5a6bf03697b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.525 79.375)
+		(size 39.37 37.465)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.5000)
+		)
+		(uuid "9c6b81db-49ed-4598-b18e-f4a73d4ea20c")
+		(property "Sheetname" "MCU"
+			(at 136.525 78.0484 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 136.525 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PMIC_ISET" output
+			(at 136.525 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73ff0c35-47ac-4ac8-be1c-1fc3a763456d")
+		)
+		(pin "PMIC_CHG" input
+			(at 136.525 86.995 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6096b63c-b625-4891-a2bb-4bde05eb7dc0")
+		)
+		(pin "PMIC_ERR" input
+			(at 136.525 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c59577e7-65ec-4184-8bbf-2c05ad29bf93")
+		)
+		(pin "VDD_1V8" input
+			(at 157.48 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56638440-f437-4c60-89eb-272f67afe2d5")
+		)
+		(pin "SPI_CS" output
+			(at 175.895 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ed90cef-747a-42a8-b548-872e3cea318f")
+		)
+		(pin "CTRL_RESET" output
+			(at 175.895 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b263977-838c-402b-9a71-0d49864db262")
+		)
+		(pin "CTRL_IRQ" input
+			(at 175.895 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b590d342-88ad-4db0-a150-843a6934b29c")
+		)
+		(pin "CTRL_GPIO" output
+			(at 175.895 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58a2befb-6c85-4b4f-87a4-1b571350f26b")
+		)
+		(pin "I2S_FSYNC" output
+			(at 175.895 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eddd8f53-9515-4fd9-8863-5ff58aa13fc7")
+		)
+		(pin "SPI_MISO" input
+			(at 175.895 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "501598e0-7b6b-4b94-abdf-8e7a55d72aa9")
+		)
+		(pin "SPI_MOSI" output
+			(at 175.895 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97f268da-01fe-4edd-870e-b04c1566e743")
+		)
+		(pin "SPI_SCK" output
+			(at 175.895 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d084a8fb-4fc2-4b13-8d2b-4ab2103ccc5b")
+		)
+		(pin "I2S_MCLK" output
+			(at 175.895 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a90ae642-ddd6-4f65-aae3-5dba4ceabfd8")
+		)
+		(pin "I2S_DOUT" output
+			(at 175.895 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5aaec06e-ba48-49cd-888a-22b80621b768")
+		)
+		(pin "I2S_BCLK" output
+			(at 175.895 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b78a3ebf-5797-4c6b-989a-fcb2fdadfa45")
+		)
+		(pin "I2S_DIN" input
+			(at 175.895 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be702b5f-5e6c-43a2-b59e-5fa1a69d979f")
+		)
+		(pin "BATT_VOLTAGE" input
+			(at 136.525 90.805 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fef53886-202b-4056-b754-a06f00411cdd")
+		)
+		(instances
+			(project "yote"
+				(path "/ed5e461c-f9f3-4239-9e69-f5a6bf03697b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 79.375)
+		(size 34.29 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.5000)
+		)
+		(uuid "b2634cf3-dada-41d9-a2ad-c6b7f9da8ee8")
+		(property "Sheetname" "Audio"
+			(at 203.2 78.0484 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dsp.kicad_sch"
+			(at 203.2 118.0596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CTRL_GPIO" input
+			(at 203.2 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55da1cb8-1910-4d27-818b-4bb7b774ab9c")
+		)
+		(pin "SPI_SCK" input
+			(at 203.2 93.345 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e6091ee-012c-4274-811b-31b27932c0e9")
+		)
+		(pin "SPI_MOSI" input
+			(at 203.2 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eea1a732-b1d0-41eb-997d-0154482a6205")
+		)
+		(pin "SPI_CS" input
+			(at 203.2 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63f94de6-1ac0-41c9-9c17-8ab431f3810e")
+		)
+		(pin "SPI_MISO" output
+			(at 203.2 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "897e366b-cfdd-40a9-875d-11a8952087ab")
+		)
+		(pin "CTRL_IRQ" output
+			(at 203.2 86.995 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "162ff0f2-404a-4f49-b10d-a26f7512bd26")
+		)
+		(pin "I2S_MCLK" input
+			(at 203.2 103.505 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c961767-546d-4767-84fc-d24693f8b7d9")
+		)
+		(pin "I2S_FSYNC" input
+			(at 203.2 111.125 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d910c976-5c45-4509-b622-74f15a7d7743")
+		)
+		(pin "I2S_DOUT" output
+			(at 203.2 107.315 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a7410c9-d432-4a6f-abdd-51b43bf21022")
+		)
+		(pin "I2S_BCLK" input
+			(at 203.2 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6dbc7cb1-3678-4592-a4c3-18711f8572ac")
+		)
+		(pin "CTRL_RESET" input
+			(at 203.2 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88e3156b-457c-478b-b24f-f235818a0ce4")
+		)
+		(pin "I2S_DIN" input
+			(at 203.2 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0095f422-ee6c-41ad-8c00-235f8af26b92")
+		)
+		(pin "VDD_1V2" input
+			(at 222.885 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c54d7944-bca9-465b-aa29-ae40fc8f62bf")
+		)
+		(pin "VDD_1V8" input
+			(at 220.98 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16613459-bfb1-4186-acf1-3494194f55c0")
+		)
+		(instances
+			(project "yote"
+				(path "/ed5e461c-f9f3-4239-9e69-f5a6bf03697b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
