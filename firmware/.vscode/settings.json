@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "rust-analyzer.checkOnSave.allTargets": false,
+  "rust-analyzer.checkOnSave.noDefaultFeatures": true,
+  "rust-analyzer.cargo.noDefaultFeatures": true,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.cargo.target": "thumbv8m.main-none-eabihf",
+  "rust-analyzer.cargo.features": [
+    // These are needed to prevent embassy-net from failing to build
+    //"embassy-net/medium-ethernet",
+    //"embassy-net/tcp",
+    //"embassy-net/pool-16",
+    //"time-tick-16mhz",
+    //"defmt-timestamp-uptime",
+    // "nightly",
+   // "defmt-log",
+    //"unstable-traits",
+  ],
+  "rust-analyzer.imports.granularity.enforce": true,
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.cargo.buildScripts.enable": true,
+  "rust-analyzer.procMacro.attributes.enable": false,
+  "rust-analyzer.showUnlinkedFileNotification": false,
+}

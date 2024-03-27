@@ -1,0 +1,61 @@
+[package]
+name = "yote"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yote Contributers"]
+license = "GPL-3.0"
+repository = "https://github.com/ninjasource/yote.git"
+description = "Firmware for the YOTE experimental hearing aid"
+keywords = ["audio", "embedded", "no_std"]
+categories = ["embedded", "no-std"]
+readme = "README.md"
+
+[dependencies]
+embassy-executor = { version = "0.5", git = "https://github.com/ninjasource/embassy.git", branch = "i2s-nrf5340", features = [
+    "arch-cortex-m",
+    "executor-thread",
+    "defmt",
+    "integrated-timers",
+    "task-arena-size-16384",
+] }
+byteorder = { version = "1.4.3", default-features = false }
+bytemuck = { version = "1.13.1", default-features = false }
+defmt = "0.3.5"
+defmt-rtt = "0.4.0"
+panic-probe = { version = "0.3.1", features = ["print-defmt"] }
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.3"
+embedded-hal-async = "1.0.0"
+embedded-hal = "1.0.0"
+embassy-nrf = { version = "0.1.0", git = "https://github.com/ninjasource/embassy.git", branch = "i2s-nrf5340", features = [
+    "defmt",
+    "nrf5340-app-s",
+    "time-driver-rtc1",
+    "gpiote",
+    "nfc-pins-as-gpio",
+] }
+embassy-time = { version = "0.3", git = "https://github.com/ninjasource/embassy.git", branch = "i2s-nrf5340", features = [
+    "defmt",
+    "defmt-timestamp-uptime",
+] }
+embassy-sync = { version = "0.5.0", git = "https://github.com/ninjasource/embassy.git", branch = "i2s-nrf5340" }
+embassy-futures = { version = "0.1.0", git = "https://github.com/ninjasource/embassy.git", branch = "i2s-nrf5340" }
+cs47l63 = { version = "0.1" }
+futures = { version = "0.3.30", default-features = false, features = [
+    "async-await",
+] }
+static_cell = { version = "2" }
+nrf5340-app-pac = { version = "0.12.0" }
+libm = "0.2.8"
+libc = "0.2"
+embedded-alloc = "0.5.1"
+
+# [patch."https://github.com/ninjasource/embassy.git"]
+# embassy-executor = { path = "../forks/embassy/embassy-executor"}
+# embassy-nrf = { path = "../forks/embassy/embassy-nrf" }
+# embassy-time = { path = "../forks/embassy/embassy-time" }
+# embassy-sync = { path = "../forks/embassy/embassy-sync" }
+# embassy-futures = { path = "../forks/embassy/embassy-futures" }
+
+[profile.release]
+debug = true
