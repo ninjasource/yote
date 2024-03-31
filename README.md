@@ -1,6 +1,6 @@
 # Yote - Year of the Ear
 
-Experiments with the nrf5340 Audio Dk, CS47L63 DSP chip and Yote experimental hearing aid
+Experiments with the nrf5340 Audio Dk, CS47L63 DSP chip and Yote experimental hearing aid. 
 For Rust firmware, open the `firmware` folder instead of working from this folder
 
 ## Prerequisites
@@ -28,7 +28,7 @@ Check the notes in `.cargo/config.toml`
 
 
 Here are some commands you may find useful when working with the nrf5340 audio dk. 
-You will need to install the nrfjprog command line tools from Nordic beforhand.
+You will need to install the nrfjprog command line tools from Nordic beforehand.
 
 ```
 nrfjprog -i
@@ -62,18 +62,17 @@ The demo runs three main tasks simultaneously:
 
 ## Project structure
 
-The `cs47l63` module should be in its own crate and is not specific to this demo. 
-It is responsible for booting up the cs47l63 chip correctly and providing a bunch of register address and constants to be used by the application.
-The `hw_codec` constains a collection of helper functions that make calls to the `cs47l63` driver to configure it.
-The `main.rs` application should use `dsp` module to exclusively communicate with the `cs47l63` even though, in theory, it could communicate directly with it through the `shared_bus` module.
+The `cs47l63` cargo library is responsible for booting up the cs47l63 chip correctly and providing a bunch of register address and constants to be used by the application.
+The `hw_dsp` (hardware digital signal processing) constrains a collection of helper functions that make calls to the `cs47l63` driver to configure it.
+The `main.rs` application should use `dsp` module to exclusively communicate with the `cs47l63` even though, in theory, it could communicate directly with it through the `shared_bus` module. Right now there is some code duplication because of some power saving experiments where we need to drop the spi bus after every use. The duplicated code should be consolidated as soon as an acceptable abstraction has been designed.
 
-# Chapro compilation
+## Chapro compilation
 
 CC=arm-none-eabi-gcc
 AR=arm-none-eabi-ar
 CFLAGS = -W -Wall -Os -mthumb -ffunction-sections -fdata-sections -mcpu=cortex-m33 -DBR_ARMEL_CORTEXM_GCC -I$(INCDIR) -Wno-unused-local-typedef -fPIC -mfpu=fpv5-sp-d16 -mfloat-abi=hard
 
-# Notes on Power Consumption
+## Notes on Power Consumption
 
 Here are some of the things that seem to affect power consumption:
 
